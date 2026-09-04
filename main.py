@@ -13,7 +13,7 @@ driver = webdriver.Chrome()
 file_num = int(0) 
 df= {'Name':[],'Link':[],'Cuisine':[],'Price':[],'Address':[],'Rating':[],'Contact':[]}
 
-query = "chinchwad"
+query = "Nigdi"
 driver.get(f'https://www.zomato.com/pune/{query}-restaurants')
 time.sleep(10)  # Allow page to load
 # Scroll down to load more restaurants
